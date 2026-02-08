@@ -60,11 +60,26 @@ namespace Pizza
             listBox3.Items.Add(textBox3.Text);
             listBox4.Items.Add(comboBox1.Text);
             listBox5.Items.Add(comboBox2.Text);
+            listBox6.Items.Add(
+                label13.Text + " " + label14.Text + " " +
+                label15.Text + " " + label16.Text + " " +
+                label17.Text + " " + label18.Text
+            );
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            comboBox1.Text = "";
+            comboBox2.Text = "";
+            label13.Text = "";
+            label14.Text = "";
+            label15.Text = "";
+            label16.Text = "";
+            label17.Text = "";
+            label18.Text = "";
         }
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)

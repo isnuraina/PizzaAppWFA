@@ -450,6 +450,7 @@
             groupBox1.TabIndex = 33;
             groupBox1.TabStop = false;
             groupBox1.Text = "Cesitlerimiz";
+            groupBox1.Visible = false;
             groupBox1.Enter += groupBox1_Enter_1;
             // 
             // label18
